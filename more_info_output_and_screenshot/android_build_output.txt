@@ -1,0 +1,1159 @@
+
+Building: TestAndroid (Debug)
+
+Build started 5/30/2014 7:48:03 PM.
+__________________________________________________
+Project "/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/TestAndroid.fsproj" (Build target(s)):
+	
+	Target _CheckProjectItems:
+		CheckProjectItems Task
+		  NativeLibraries:
+		  JavaLibraries:
+		  JavaSourceFiles:
+	
+	Target _ComputeAndroidAssetsPaths:
+		  ResourceFiles:
+		    Assets/AboutAssets.txt
+		  IntermediateFiles:
+	
+	Target _GenerateAndroidAssetsDir:
+	Skipping target "_GenerateAndroidAssetsDir" because its outputs are up-to-date.
+	
+	Target _ComputeAndroidResourcePaths:
+		  ResourceFiles:
+		    Resources/layout/Main.axml
+		    Resources/values/Strings.xml
+		    Resources/drawable/Icon.png
+		  IntermediateFiles:
+	
+	Target _GenerateAndroidResourceDir:
+	Skipping target "_GenerateAndroidResourceDir" because its outputs are up-to-date.
+	
+	Target _ResolveMonoAndroidSdks:
+		MonoAndroid Tools: /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mandroid/
+		MonoAndroid Binaries: /Library/Frameworks/Xamarin.Android.framework/Versions/Current/bin/
+		Android Platform API level: 17
+		TargetFrameworkVersion: v4.2
+		Android NDK: /
+		Android SDK: /Users/bpillow/Library/Developer/Xamarin/android-sdk-mac_x86/
+		Android SDK Build Tools: /Users/bpillow/Library/Developer/Xamarin/android-sdk-mac_x86/build-tools/19.0.3/
+		Java SDK: /usr/
+	
+	Target _ValidateAndroidPackageProperties:
+		GetAndroidPackageName Task
+		  ManifestFile: /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/Properties/AndroidManifest.xml
+		  AssemblyName: TestAndroid
+		  PackageName: TestAndroid.TestAndroid
+	
+	Target _BuildDependencies:
+		Resolved library outputs: 
+	
+	Target _ExtractLibraryProjectImports:
+		  Assemblies: 
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    ../packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    ../packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    ../packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    ../packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		  Jars: 
+		  ResolvedResourceDirectories: 
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Maps.Android/library_project_imports/res
+		  ResolvedAssetDirectories: 
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Maps.Android/library_project_imports/assets
+		  ResolvedEnvironmentFiles: 
+	
+	Target _GetLibraryImports:
+		  NativeLibraries: 
+		  Jars: 
+	
+	Target _CheckDuplicateJavaLibraries:
+		  JavaSourceFiles:
+		  JavaLibraries:
+	
+	Target _GetAdditionalResourcesFromAssemblies:
+		  Assemblies: 
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    ../packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    ../packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    ../packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    ../packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		  AdditionalAndroidResourcePaths: 
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.MediaRouter/19.0.1/content/support/v7/mediarouter
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.AppCompat/19.0.1/content/support/v7/appcompat
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/15/content/google-play-services/libproject/google-play-services_lib
+		  AdditionalJavaLibraryReferences: 
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v4/19.0.1/content/support/v4/android-support-v4.jar
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.MediaRouter/19.0.1/content/support/v7/mediarouter/libs/android-support-v7-mediarouter.jar
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.AppCompat/19.0.1/content/support/v7/appcompat/libs/android-support-v7-appcompat.jar
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/15/content/google-play-services/libproject/google-play-services_lib/libs/google-play-services.jar
+	
+	Target _UpdateAndroidResgen:
+	Skipping target "_UpdateAndroidResgen" because its outputs are up-to-date.
+	
+	Target _GenerateJavaDesignerForComponent:
+		  AdditionalResourceDirectories: 
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Maps.Android/library_project_imports/res
+		  AdditionalAndroidResourcePaths: 
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.MediaRouter/19.0.1/content/support/v7/mediarouter
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.AppCompat/19.0.1/content/support/v7/appcompat
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/15/content/google-play-services/libproject/google-play-services_lib
+		  Additional Android Resources manifsets files are unchanged. Skipping.
+		  AdditionalResourceDirectories: 
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Maps.Android/library_project_imports/res
+		  AdditionalAndroidResourcePaths: 
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.MediaRouter/19.0.1/content/support/v7/mediarouter
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.AppCompat/19.0.1/content/support/v7/appcompat
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/15/content/google-play-services/libproject/google-play-services_lib
+		  Additional Android Resources manifsets files are unchanged. Skipping.
+		  AdditionalResourceDirectories: 
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/__library_projects__/Xamarin.Forms.Maps.Android/library_project_imports/res
+		  AdditionalAndroidResourcePaths: 
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.MediaRouter/19.0.1/content/support/v7/mediarouter
+		    /Users/bpillow/.local/share/Xamarin/Android.Support.v7.AppCompat/19.0.1/content/support/v7/appcompat
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/15/content/google-play-services/libproject/google-play-services_lib
+		  Additional Android Resources manifsets files are unchanged. Skipping.
+	
+	Target PrepareForBuild:
+		Configuration: Debug Platform: AnyCPU
+	
+	Target GenerateSatelliteAssemblies:
+	No input files were specified for target GenerateSatelliteAssemblies, skipping.
+	
+	Target GenerateXamlG:
+		Skipping XamlG
+	
+	Target CoreCompile:
+	Skipping target "CoreCompile" because its outputs are up-to-date.
+	
+	Target _ResolveAssemblies:
+		ResolveAssemblies Task
+		  ReferenceAssembliesDirectory: /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2;/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0;/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/
+		  I18nAssemblies: 
+		  LinkMode: None
+		  Assemblies:
+		    bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    ../packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    ../packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    ../packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    ../packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    ../packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    ../packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		  Assembly /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll is ignored: system assembly is used instead.
+		  Assembly /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll is ignored: system assembly is used instead.
+		  Assembly /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll is ignored: system assembly is used instead.
+		  Assembly /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll is ignored: system assembly is used instead.
+		  Assembly /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll is ignored: system assembly is used instead.
+		  [Output] ResolvedAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		  [Output] ResolvedUserAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		  [Output] ResolvedFrameworkAssemblies:
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		  [Output] ResolvedDoNotPackageAttributes:
+	
+	Target _CopyIntermediateAssemblies:
+		Copying file from '/Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll' to '/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll'
+		Copying file from '/Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll' to '/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/obj/Debug/assemblies/Xamarin.Forms.Maps.Android.dll'
+		SourceFiles:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		DestinationFiles:
+		    obj/Debug/assemblies/TestAndroid.dll
+		    obj/Debug/assemblies/FSharp.Core.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Core.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+		    obj/Debug/assemblies/GooglePlayServicesLib.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.dll
+		    obj/Debug/assemblies/System.Collections.Concurrent.dll
+		    obj/Debug/assemblies/System.Collections.dll
+		    obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+		    obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+		    obj/Debug/assemblies/System.ComponentModel.dll
+		    obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+		    obj/Debug/assemblies/System.Diagnostics.Debug.dll
+		    obj/Debug/assemblies/System.Diagnostics.Tools.dll
+		    obj/Debug/assemblies/System.Dynamic.Runtime.dll
+		    obj/Debug/assemblies/System.Globalization.dll
+		    obj/Debug/assemblies/System.IO.dll
+		    obj/Debug/assemblies/System.Linq.Expressions.dll
+		    obj/Debug/assemblies/System.Linq.Parallel.dll
+		    obj/Debug/assemblies/System.Linq.Queryable.dll
+		    obj/Debug/assemblies/System.Linq.dll
+		    obj/Debug/assemblies/System.Net.NetworkInformation.dll
+		    obj/Debug/assemblies/System.Net.Primitives.dll
+		    obj/Debug/assemblies/System.Net.Requests.dll
+		    obj/Debug/assemblies/System.ObjectModel.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.dll
+		    obj/Debug/assemblies/System.Reflection.Extensions.dll
+		    obj/Debug/assemblies/System.Reflection.Primitives.dll
+		    obj/Debug/assemblies/System.Reflection.dll
+		    obj/Debug/assemblies/System.Resources.ResourceManager.dll
+		    obj/Debug/assemblies/System.Runtime.Extensions.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.dll
+		    obj/Debug/assemblies/System.Runtime.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+		    obj/Debug/assemblies/System.Runtime.dll
+		    obj/Debug/assemblies/System.Security.Principal.dll
+		    obj/Debug/assemblies/System.ServiceModel.Http.dll
+		    obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+		    obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+		    obj/Debug/assemblies/System.Text.Encoding.dll
+		    obj/Debug/assemblies/System.Text.RegularExpressions.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.dll
+		    obj/Debug/assemblies/System.Threading.dll
+		    obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+		    obj/Debug/assemblies/System.Xml.XDocument.dll
+		    obj/Debug/assemblies/System.Xml.XmlSerializer.dll
+		    obj/Debug/assemblies/mscorlib.dll
+		    obj/Debug/assemblies/Mono.Android.dll
+		    obj/Debug/assemblies/System.Xml.dll
+		    obj/Debug/assemblies/System.dll
+		    obj/Debug/assemblies/Mono.Security.dll
+		    obj/Debug/assemblies/System.Core.dll
+		    obj/Debug/assemblies/System.Net.Http.dll
+		    obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
+		    obj/Debug/assemblies/System.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.dll
+		    obj/Debug/assemblies/System.ComponentModel.Composition.dll
+		    obj/Debug/assemblies/System.ServiceModel.dll
+		    obj/Debug/assemblies/System.Xml.Linq.dll
+		SourceFiles:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		DestinationFiles:
+		    obj/Debug/assemblies/TestAndroid.dll
+		    obj/Debug/assemblies/FSharp.Core.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Core.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+		    obj/Debug/assemblies/GooglePlayServicesLib.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.dll
+		    obj/Debug/assemblies/System.Collections.Concurrent.dll
+		    obj/Debug/assemblies/System.Collections.dll
+		    obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+		    obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+		    obj/Debug/assemblies/System.ComponentModel.dll
+		    obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+		    obj/Debug/assemblies/System.Diagnostics.Debug.dll
+		    obj/Debug/assemblies/System.Diagnostics.Tools.dll
+		    obj/Debug/assemblies/System.Dynamic.Runtime.dll
+		    obj/Debug/assemblies/System.Globalization.dll
+		    obj/Debug/assemblies/System.IO.dll
+		    obj/Debug/assemblies/System.Linq.Expressions.dll
+		    obj/Debug/assemblies/System.Linq.Parallel.dll
+		    obj/Debug/assemblies/System.Linq.Queryable.dll
+		    obj/Debug/assemblies/System.Linq.dll
+		    obj/Debug/assemblies/System.Net.NetworkInformation.dll
+		    obj/Debug/assemblies/System.Net.Primitives.dll
+		    obj/Debug/assemblies/System.Net.Requests.dll
+		    obj/Debug/assemblies/System.ObjectModel.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.dll
+		    obj/Debug/assemblies/System.Reflection.Extensions.dll
+		    obj/Debug/assemblies/System.Reflection.Primitives.dll
+		    obj/Debug/assemblies/System.Reflection.dll
+		    obj/Debug/assemblies/System.Resources.ResourceManager.dll
+		    obj/Debug/assemblies/System.Runtime.Extensions.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.dll
+		    obj/Debug/assemblies/System.Runtime.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+		    obj/Debug/assemblies/System.Runtime.dll
+		    obj/Debug/assemblies/System.Security.Principal.dll
+		    obj/Debug/assemblies/System.ServiceModel.Http.dll
+		    obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+		    obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+		    obj/Debug/assemblies/System.Text.Encoding.dll
+		    obj/Debug/assemblies/System.Text.RegularExpressions.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.dll
+		    obj/Debug/assemblies/System.Threading.dll
+		    obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+		    obj/Debug/assemblies/System.Xml.XDocument.dll
+		    obj/Debug/assemblies/System.Xml.XmlSerializer.dll
+		    obj/Debug/assemblies/mscorlib.dll
+		    obj/Debug/assemblies/Mono.Android.dll
+		    obj/Debug/assemblies/System.Xml.dll
+		    obj/Debug/assemblies/System.dll
+		    obj/Debug/assemblies/Mono.Security.dll
+		    obj/Debug/assemblies/System.Core.dll
+		    obj/Debug/assemblies/System.Net.Http.dll
+		    obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
+		    obj/Debug/assemblies/System.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.dll
+		    obj/Debug/assemblies/System.ComponentModel.Composition.dll
+		    obj/Debug/assemblies/System.ServiceModel.dll
+		    obj/Debug/assemblies/System.Xml.Linq.dll
+	
+	Target _ScanAssemblies:
+		LinkAssemblies Task
+		  UseSharedRuntime: true
+		  MainAssembly: obj/Debug/assemblies/TestAndroid.dll
+		  OutputDirectory: obj/Debug/android/assets/
+		  I18nAssemblies: 
+		  ReferenceAssembliesDirectory: /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2;/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0;/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/
+		  ResolvedAssemblies:
+		    obj/Debug/assemblies/TestAndroid.dll
+		    obj/Debug/assemblies/FSharp.Core.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Core.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+		    obj/Debug/assemblies/GooglePlayServicesLib.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.dll
+		    obj/Debug/assemblies/System.Collections.Concurrent.dll
+		    obj/Debug/assemblies/System.Collections.dll
+		    obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+		    obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+		    obj/Debug/assemblies/System.ComponentModel.dll
+		    obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+		    obj/Debug/assemblies/System.Diagnostics.Debug.dll
+		    obj/Debug/assemblies/System.Diagnostics.Tools.dll
+		    obj/Debug/assemblies/System.Dynamic.Runtime.dll
+		    obj/Debug/assemblies/System.Globalization.dll
+		    obj/Debug/assemblies/System.IO.dll
+		    obj/Debug/assemblies/System.Linq.Expressions.dll
+		    obj/Debug/assemblies/System.Linq.Parallel.dll
+		    obj/Debug/assemblies/System.Linq.Queryable.dll
+		    obj/Debug/assemblies/System.Linq.dll
+		    obj/Debug/assemblies/System.Net.NetworkInformation.dll
+		    obj/Debug/assemblies/System.Net.Primitives.dll
+		    obj/Debug/assemblies/System.Net.Requests.dll
+		    obj/Debug/assemblies/System.ObjectModel.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.dll
+		    obj/Debug/assemblies/System.Reflection.Extensions.dll
+		    obj/Debug/assemblies/System.Reflection.Primitives.dll
+		    obj/Debug/assemblies/System.Reflection.dll
+		    obj/Debug/assemblies/System.Resources.ResourceManager.dll
+		    obj/Debug/assemblies/System.Runtime.Extensions.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.dll
+		    obj/Debug/assemblies/System.Runtime.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+		    obj/Debug/assemblies/System.Runtime.dll
+		    obj/Debug/assemblies/System.Security.Principal.dll
+		    obj/Debug/assemblies/System.ServiceModel.Http.dll
+		    obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+		    obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+		    obj/Debug/assemblies/System.Text.Encoding.dll
+		    obj/Debug/assemblies/System.Text.RegularExpressions.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.dll
+		    obj/Debug/assemblies/System.Threading.dll
+		    obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+		    obj/Debug/assemblies/System.Xml.XDocument.dll
+		    obj/Debug/assemblies/System.Xml.XmlSerializer.dll
+		    obj/Debug/assemblies/mscorlib.dll
+		    obj/Debug/assemblies/Mono.Android.dll
+		    obj/Debug/assemblies/System.Xml.dll
+		    obj/Debug/assemblies/System.dll
+		    obj/Debug/assemblies/Mono.Security.dll
+		    obj/Debug/assemblies/System.Core.dll
+		    obj/Debug/assemblies/System.Net.Http.dll
+		    obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
+		    obj/Debug/assemblies/System.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.dll
+		    obj/Debug/assemblies/System.ComponentModel.Composition.dll
+		    obj/Debug/assemblies/System.ServiceModel.dll
+		    obj/Debug/assemblies/System.Xml.Linq.dll
+	
+	Target _StripEmbeddedLibraries:
+		  Assemblies: 
+		    obj/Debug/assemblies/TestAndroid.dll
+		    obj/Debug/assemblies/FSharp.Core.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Core.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
+		    obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+		    obj/Debug/assemblies/GooglePlayServicesLib.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.Android.dll
+		    obj/Debug/assemblies/Xamarin.Forms.Maps.dll
+		    obj/Debug/assemblies/System.Collections.Concurrent.dll
+		    obj/Debug/assemblies/System.Collections.dll
+		    obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+		    obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+		    obj/Debug/assemblies/System.ComponentModel.dll
+		    obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+		    obj/Debug/assemblies/System.Diagnostics.Debug.dll
+		    obj/Debug/assemblies/System.Diagnostics.Tools.dll
+		    obj/Debug/assemblies/System.Dynamic.Runtime.dll
+		    obj/Debug/assemblies/System.Globalization.dll
+		    obj/Debug/assemblies/System.IO.dll
+		    obj/Debug/assemblies/System.Linq.Expressions.dll
+		    obj/Debug/assemblies/System.Linq.Parallel.dll
+		    obj/Debug/assemblies/System.Linq.Queryable.dll
+		    obj/Debug/assemblies/System.Linq.dll
+		    obj/Debug/assemblies/System.Net.NetworkInformation.dll
+		    obj/Debug/assemblies/System.Net.Primitives.dll
+		    obj/Debug/assemblies/System.Net.Requests.dll
+		    obj/Debug/assemblies/System.ObjectModel.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+		    obj/Debug/assemblies/System.Reflection.Emit.dll
+		    obj/Debug/assemblies/System.Reflection.Extensions.dll
+		    obj/Debug/assemblies/System.Reflection.Primitives.dll
+		    obj/Debug/assemblies/System.Reflection.dll
+		    obj/Debug/assemblies/System.Resources.ResourceManager.dll
+		    obj/Debug/assemblies/System.Runtime.Extensions.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+		    obj/Debug/assemblies/System.Runtime.InteropServices.dll
+		    obj/Debug/assemblies/System.Runtime.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+		    obj/Debug/assemblies/System.Runtime.dll
+		    obj/Debug/assemblies/System.Security.Principal.dll
+		    obj/Debug/assemblies/System.ServiceModel.Http.dll
+		    obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+		    obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+		    obj/Debug/assemblies/System.Text.Encoding.dll
+		    obj/Debug/assemblies/System.Text.RegularExpressions.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+		    obj/Debug/assemblies/System.Threading.Tasks.dll
+		    obj/Debug/assemblies/System.Threading.dll
+		    obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+		    obj/Debug/assemblies/System.Xml.XDocument.dll
+		    obj/Debug/assemblies/System.Xml.XmlSerializer.dll
+		    obj/Debug/assemblies/mscorlib.dll
+		    obj/Debug/assemblies/Mono.Android.dll
+		    obj/Debug/assemblies/System.Xml.dll
+		    obj/Debug/assemblies/System.dll
+		    obj/Debug/assemblies/Mono.Security.dll
+		    obj/Debug/assemblies/System.Core.dll
+		    obj/Debug/assemblies/System.Net.Http.dll
+		    obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
+		    obj/Debug/assemblies/System.Numerics.dll
+		    obj/Debug/assemblies/System.Runtime.Serialization.dll
+		    obj/Debug/assemblies/System.ComponentModel.Composition.dll
+		    obj/Debug/assemblies/System.ServiceModel.dll
+		    obj/Debug/assemblies/System.Xml.Linq.dll
+	
+	Target _GenerateJavaStubs:
+		  ResolvedAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		  ResolvedUserAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : Failed to read '/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll' with debugging symbols. Retrying to load it without it. Error details are logged below.
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : System.ArgumentOutOfRangeException: Non-negative number required.
+Parameter name: srcOffset
+  at System.Buffer.BlockCopy (System.Array src, Int32 srcOffset, System.Array dst, Int32 dstOffset, Int32 count) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.PE.Image.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ProcessDebugHeader () [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadSymbols (ISymbolReader reader) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.ReadSymbols (Mono.Cecil.ModuleDefinition module, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.CreateModuleFrom (Mono.Cecil.PE.Image image, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.IO.Stream stream, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Xamarin.Android.Tuner.DirectoryAssemblyResolver.ReadAssembly (System.String file) [0x00000] in <filename unknown>:0 
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : Failed to read '/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll' with debugging symbols. Retrying to load it without it. Error details are logged below.
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : System.ArgumentOutOfRangeException: Non-negative number required.
+Parameter name: srcOffset
+  at System.Buffer.BlockCopy (System.Array src, Int32 srcOffset, System.Array dst, Int32 dstOffset, Int32 count) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.PE.Image.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ProcessDebugHeader () [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadSymbols (ISymbolReader reader) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.ReadSymbols (Mono.Cecil.ModuleDefinition module, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.CreateModuleFrom (Mono.Cecil.PE.Image image, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.IO.Stream stream, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Xamarin.Android.Tuner.DirectoryAssemblyResolver.ReadAssembly (System.String file) [0x00000] in <filename unknown>:0 
+	
+	Target _AddStaticResources:
+		Resource obj/Debug/android/assets/machine.config is unchanged. Skipping.
+		Resource obj/Debug/android/src/mono/MonoRuntimeProvider.java is unchanged. Skipping.
+		Resource obj/Debug/android/src/mono/android/Seppuku.java is unchanged. Skipping.
+	
+	Target _GeneratePackageManagerJava:
+		  ResolvedAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.2/Mono.Android.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Net.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.DataAnnotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Runtime.Serialization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ComponentModel.Composition.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.ServiceModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.Linq.dll
+		  ResolvedUserAssemblies:
+		    /Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.MediaRouter.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.MediaRouter.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Android.Support.v7.AppCompat.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v7.AppCompat.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.GooglePlayServices.15.0.3/lib/MonoAndroid10/GooglePlayServicesLib.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll
+		    /Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.Maps.1.0.6188/lib/MonoAndroid10/Xamarin.Forms.Maps.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.EventBasedAsync.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Contracts.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Debug.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Diagnostics.Tools.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Dynamic.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Globalization.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.IO.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Expressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.Queryable.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Linq.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.NetworkInformation.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Net.Requests.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ObjectModel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.ILGeneration.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.Lightweight.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Emit.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Reflection.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Resources.ResourceManager.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.InteropServices.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Numerics.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Json.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.Serialization.Xml.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Runtime.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Security.Principal.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Http.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ServiceModel.Primitives.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.Extensions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.Encoding.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Text.RegularExpressions.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.Parallel.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.Tasks.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Threading.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.ReaderWriter.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
+		    /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
+	
+	Target _CreateBaseApk:
+	Skipping target "_CreateBaseApk" because its outputs are up-to-date.
+	
+	Target _CompileJava:
+	Skipping target "_CompileJava" because its outputs are up-to-date.
+	
+	Target _CompileDex:
+	Skipping target "_CompileDex" because its outputs are up-to-date.
+Done building project "/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/TestAndroid.fsproj".
+
+Build succeeded.
+
+Warnings:
+
+/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/TestAndroid.fsproj (Build) ->
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets (_GenerateJavaStubs target) ->
+
+	/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : Failed to read '/Users/bpillow/Git/XamFormsFSharpTest/TestAndroid/bin/Debug/TestAndroid.dll' with debugging symbols. Retrying to load it without it. Error details are logged below.
+	/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : System.ArgumentOutOfRangeException: Non-negative number required.
+Parameter name: srcOffset
+  at System.Buffer.BlockCopy (System.Array src, Int32 srcOffset, System.Array dst, Int32 dstOffset, Int32 count) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.PE.Image.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ProcessDebugHeader () [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadSymbols (ISymbolReader reader) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.ReadSymbols (Mono.Cecil.ModuleDefinition module, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.CreateModuleFrom (Mono.Cecil.PE.Image image, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.IO.Stream stream, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Xamarin.Android.Tuner.DirectoryAssemblyResolver.ReadAssembly (System.String file) [0x00000] in <filename unknown>:0 
+	/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : Failed to read '/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll' with debugging symbols. Retrying to load it without it. Error details are logged below.
+	/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets:  warning : System.ArgumentOutOfRangeException: Non-negative number required.
+Parameter name: srcOffset
+  at System.Buffer.BlockCopy (System.Array src, Int32 srcOffset, System.Array dst, Int32 dstOffset, Int32 count) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.PE.Image.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.GetDebugHeader (System.Byte[]& header) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ProcessDebugHeader () [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadSymbols (ISymbolReader reader) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.ReadSymbols (Mono.Cecil.ModuleDefinition module, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleReader.CreateModuleFrom (Mono.Cecil.PE.Image image, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.IO.Stream stream, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <filename unknown>:0 
+  at Xamarin.Android.Tuner.DirectoryAssemblyResolver.ReadAssembly (System.String file) [0x00000] in <filename unknown>:0 
+
+	 4 Warning(s)
+	 0 Error(s)
+
+Time Elapsed 00:00:01.3027210
+
+---------------------- Done ----------------------
+
+Build: 0 errors, 4 warnings

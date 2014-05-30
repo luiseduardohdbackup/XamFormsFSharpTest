@@ -1,0 +1,27 @@
+Building: TestiOS (Debug|iPhoneSimulator)
+Performing main compilation...
+/Library/Frameworks/Mono.framework/Versions/3.4.0/bin/fsharpc --noframework --nologo
+--target:exe
+--out:"/Users/bpillow/Git/XamFormsFSharpTest/TestiOS/bin/iPhoneSimulator/Debug/TestiOS.exe"
+--noframework
+--define:DEBUG
+--define:__MOBILE__
+--define:__IOS__
+--debug+
+--optimize-
+--tailcalls-
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll"
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll"
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll"
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/System.dll"
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll"
+-r:"/Developer/MonoTouch/usr/lib/mono/2.1/mscorlib.dll"
+-r:"/Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoTouch10/Xamarin.Forms.Core.dll"
+-r:"/Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll"
+-r:"/Users/bpillow/Git/XamFormsFSharpTest/packages/Xamarin.Forms.1.0.6188/lib/MonoTouch10/Xamarin.Forms.Xaml.dll"
+"/Users/bpillow/Git/XamFormsFSharpTest/TestiOS/AppDelegate.fs"
+Build complete -- 3 errors, 0 warnings
+
+---------------------- Done ----------------------
+
+Build: 3 errors, 0 warnings
