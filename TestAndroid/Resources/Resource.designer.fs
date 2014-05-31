@@ -23,10 +23,10 @@ namespace TestAndroid
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnExceptionf094beaa63f148428205165e53a4a326 of obj
-    exception ReturnNoneExceptionf094beaa63f148428205165e53a4a326
+    exception ReturnExceptionafd36a872dc44d3094e0da6b2ad0aaf7 of obj
+    exception ReturnNoneExceptionafd36a872dc44d3094e0da6b2ad0aaf7
     [<AutoOpen>]
-    module FuncConvertFinalOverloadf094beaa63f148428205165e53a4a326 =
+    module FuncConvertFinalOverloadafd36a872dc44d3094e0da6b2ad0aaf7 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -1071,7 +1071,9 @@ namespace TestAndroid
             static member edit_query = 2131099699
             
             // aapt resource value: 0x7f060016
-
+            //how do we stop Droid form renegerating this, which has a tag with an illegal keyword, "end"??
+            //static member end = 2131099670
+            
             // aapt resource value: 0x7f060029
             static member expand_activities_button = 2131099689
             

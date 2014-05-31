@@ -104,7 +104,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="mscorlib" />
-    <Reference Include="FSharp.Core" />
     <Reference Include="monotouch" />
     <Reference Include="Xamarin.Forms.Platform.iOS">
       <HintPath>..\packages\Xamarin.Forms.1.0.6188\lib\MonoTouch10\Xamarin.Forms.Platform.iOS.dll</HintPath>
